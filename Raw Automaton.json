@@ -1,0 +1,34 @@
+{
+	"Set Of States":
+		["I","F"],
+
+	"Alphabet":
+		["a","b","c"],
+
+	"Transitions":
+		{
+		"I":
+			[
+				["","","F","S"]
+			],
+		"F":
+			[
+				["","S","F","aSa"],
+				["","S","F","bSb"],
+				["","S","F","c"],
+				["a","a","F",""],
+				["b","b","F",""],
+				["c","c","F",""]
+			]
+		},
+
+	"Initial State":
+		"I",
+
+	"Set Of Final States":
+		["F"],
+
+	"Strings To Evaluate":
+		["abcba","aabbcbb","c","abba"]
+
+}
